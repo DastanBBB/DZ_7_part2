@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f7f7;
+    font-family: "Times New Roman, sans-serif";
+}
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 0;
+    background-color: grey;
+}
+#message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
